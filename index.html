@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box {
+
+      margin: 10px;
+    }
+
+    .contaner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .TINKOFF_BTN_YELLOW {
+      background-color: #25406D;
+      color: rgb(255, 255, 255)
+    }
+
+    #creditbtn:hover {
+      background-color: #D6A14F;
+      color: rgb(255, 255, 255)
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="contaner">
+    <div class="box">
+      <button id="creditbtn" type="button" class="TINKOFF_BTN_YELLOW" onclick="tinkoff.create({
+
+        shopId: '4a98a967-f42a-4885-8be9-4f681ee03b16',
+
+        showcaseId: '091c8eb2-76b6-429e-8484-0875cc8c7b24',
+
+        demoFlow: 'sms',
+        promoCode: 'installment_0_0_3_4' ,
+
+        items: [
+
+          {name: 'Парусный лагерь 6−8 марта (без регаты)', price: 23000, quantity: 1}
+
+        ],
+
+        sum: 23000
+
+      })">
+        1 участник 23 000 ₽ — оформить рассрочку
+      </button>
+    </div>
+    <div class="box">
+      <button id="creditbtn" type="button" class="TINKOFF_BTN_YELLOW" onclick="tinkoff.create ({
+
+        shopId: '4a98a967-f42a-4885-8be9-4f681ee03b16',
+
+        showcaseId: '091c8eb2-76b6-429e-8484-0875cc8c7b24',
+
+        demoFlow: 'sms',
+        promoCode: 'installment_0_0_3_4' ,
+
+        items: [
+
+          {name: 'Парусный лагерь 6−8 марта (без регаты)', price: 23000, quantity: 2}
+
+        ],
+
+        sum: 46000
+
+      })">
+        2 участника 46 000 ₽ — оформить рассрочку
+      </button>
+    </div>
+
+    <div class="box">
+      <button id="creditbtn" type="button" class="TINKOFF_BTN_YELLOW" onclick="tinkoff.create ({
+
+        shopId: '4a98a967-f42a-4885-8be9-4f681ee03b16',
+
+        showcaseId: '091c8eb2-76b6-429e-8484-0875cc8c7b24',
+        promoCode: 'installment_0_0_3_4' ,
+
+        demoFlow: 'sms',
+
+        items: [
+
+          {name: 'Парусный лагерь 6−8 марта (без регаты)', price: 23000, quantity: 3}
+
+        ],
+
+        sum: 69000
+
+      })">
+        3 участника 69 000 ₽ — оформить рассрочку
+      </button>
+    </div>
+    <div class="box">
+      <button id="creditbtn" type="button" class="TINKOFF_BTN_YELLOW" onclick="tinkoff.create({
+
+        shopId: '4a98a967-f42a-4885-8be9-4f681ee03b16',
+
+        showcaseId: '091c8eb2-76b6-429e-8484-0875cc8c7b24',
+
+        demoFlow: 'sms',
+        promoCode: 'installment_0_0_3_4' ,
+
+        items: [
+
+          {name: 'Парусный лагерь 6−8 марта (без регаты)', price: 23000, quantity: 4}
+
+        ],
+
+        sum: 92000
+
+      })">
+        4 участника 92 000 ₽ — оформить рассрочку
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
